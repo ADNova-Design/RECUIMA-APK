@@ -6,7 +6,9 @@ Escala de 7 variables con pesos específicos para predecir mortalidad intrahospi
 
 ## Instalación
 
-1. Descarga el archivo `app-debug.apk` desde [Releases](https://github.com/ADNova-Design/RECUIMA-APK/releases)
+1. Descarga el archivo `RECUIMA.apk` desde:  
+   - 🌐 [Página oficial](https://adnova-design.github.io/RECUIMA-APK/)  
+   - 📦 [Release v1.0.0](https://github.com/ADNova-Design/RECUIMA-APK/releases/download/v1.0.0/RECUIMA.apk) (descarga directa)
 2. En tu dispositivo Android, habilita "Instalar apps de orígenes desconocidos"
 3. Abre el archivo APK descargado e instala
 
