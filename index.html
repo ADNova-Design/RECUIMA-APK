@@ -82,32 +82,12 @@
         .btn:active { transform: translateY(0); }
         .btn svg { width: 20px; height: 20px; fill: currentColor; }
         .info {
-            margin-top: 2rem;
+            margin-top: 1.5rem;
             font-size: 0.85rem;
             color: #64748b;
             line-height: 1.6;
         }
         .info strong { color: #334155; }
-        .variables {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 0.5rem;
-            text-align: left;
-            margin: 1.5rem 0;
-            font-size: 0.85rem;
-        }
-        .variables .var {
-            display: flex;
-            justify-content: space-between;
-            padding: 0.3rem 0.5rem;
-            background: #f8fafc;
-            border-radius: 6px;
-            border: 1px solid #f1f5f9;
-        }
-        .variables .var span:last-child {
-            color: #2563eb;
-            font-weight: 700;
-        }
         .hr {
             border: none;
             border-top: 1px solid #e2e8f0;
@@ -121,7 +101,6 @@
         @media (max-width: 480px) {
             .card { padding: 2rem 1.5rem; }
             h1 { font-size: 1.6rem; }
-            .variables { grid-template-columns: 1fr; }
         }
     </style>
 </head>
@@ -139,23 +118,6 @@
             <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zm7-18L5.33 9h3.84v4h3.66V9h3.84L12 2z"/></svg>
             Descargar RECUIMA.apk
         </a>
-
-        <hr class="hr">
-
-        <div class="variables">
-            <div class="var"><span>Edad ≥ 70 años</span><span>1</span></div>
-            <div class="var"><span>Sexo femenino</span><span>1</span></div>
-            <div class="var"><span>HTA</span><span>1</span></div>
-            <div class="var"><span>FA</span><span>1</span></div>
-            <div class="var"><span>Killip IV</span><span>1</span></div>
-            <div class="var"><span>FV/TV</span><span>2</span></div>
-            <div class="var"><span>FG &lt; 60 mL/min</span><span>3</span></div>
-        </div>
-
-        <p class="info">
-            <strong>Puntaje ≥ 4</strong> → Alto Riesgo<br>
-            7 variables · Pesos específicos · Sin datos del paciente
-        </p>
 
         <hr class="hr">
 
